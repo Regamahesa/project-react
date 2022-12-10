@@ -1,0 +1,10 @@
+.kotak_login {
+  border: 1px solid #232323;
+  border-radius: 10%;
+  width: 350px;
+  color: black;
+  background-color: white;
+  /*meletakkan form ke tengah*/
+  margin: 80px auto;
+  padding: 30px 20px;
+}

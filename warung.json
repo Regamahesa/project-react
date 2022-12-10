@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "password": "Administrator"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "123"
+    },
+    {
+      "username": "user",
+      "password": "133",
+      "id": 3
+    },
+    {
+      "username": "asjka",
+      "password": "hsbdisd",
+      "id": 4
+    },
+    {
+      "username": "sandi",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "username": "asd",
+      "password": ", d,",
+      "id": 6
+    },
+    {
+      "username": "user",
+      "password": "123",
+      "id": 7
+    }
+  ],
+  "daftarMakanan": [
+    {
+      "id": 1,
+      "name": "Paket B",
+      "deskripsi": "Nasi campur + Ayam + Es Teh",
+      "image": "https://cdn.dimanaja.com/image/food/https/i.gojekapi.com/darkroom%2Fgofood-indonesia%2Fv2%2Fimages%2Fuploads%2Fb8f0d55f-a257-4416-9b4d-a22042d833f4_master-menu-item-image_1611561596551.jpg",
+      "harga": 15000
+    },
+    {
+      "name": "Nasi Padang",
+      "deskripsi": "Nasi padang adalah nasi putih yang disajikan dengan berbagai macam lauk-pauk khas Indonesia.",
+      "image": "https://awsimages.detik.net.id/community/media/visual/2019/04/24/de2758a6-ea38-4ae9-8c4b-f2b395a81a22_43.png?w=700&q=90",
+      "harga": "60000",
+      "id": 2
+    },
+    {
+      "name": "Nasi Rames",
+      "deskripsi": "Nasi campur adalah salah satu masakan khas Indonesia. yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk",
+      "image": "https://sweetrip.id/wp-content/uploads/2022/07/resep-nasi-rames-jawa.jpeg",
+      "harga": 20000,
+      "id": 3
+    },
+    {
+      "name": "Nasi Rames",
+      "deskripsi": "Nasi campur adalah salah satu masakan khas Indonesia. yang terdiri atas nasi putih yang dihidangkan dengan bermacam-macam lauk",
+      "image": "https://sweetrip.id/wp-content/uploads/2022/07/resep-nasi-rames-jawa.jpeg",
+      "harga": 20000,
+      "id": 4
+    },
+    {
+      "name": "Nasi Uduk",
+      "deskripsi": "Nasi uduk adalah hidangan yang dibuat dari nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica. Hidangan ini kini adalah salah satu Hidangan Betawi yang populer. ",
+      "image": "https://cdn0-production-images-kly.akamaized.net/tXpoBvH2g4RlfKSSbLpL-O6nO78=/0x105:999x668/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3922449/original/095600900_1643856254-shutterstock_1072908059.jpg",
+      "harga": 17000,
+      "id": 5
+    }
+  ]
+}
