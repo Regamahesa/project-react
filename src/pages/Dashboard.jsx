@@ -1,11 +1,12 @@
 import React from 'react'
 import "../style/Dashboard.css"
+import Img from "../asset/WhatsApp Image 2022-12-13 at 07.22.21.jpeg";
 
 export default function Dashboard() {
     return (
-        <div>
+        <div className="dash">
             <div>
-
+            <h3 className="text-center">Selamat Datang di Warung online GaFood <i class="fas fa-store-alt"></i></h3>
             </div>
        <div id="carouselExampleIndicators" className="carousel " data-bs-ride="true"  style={{width:"900px"}}  >
         <div className="carousel-indicators">
@@ -15,7 +16,7 @@ export default function Dashboard() {
             </div>
             <div className="carousel-inner slide" >
                 <div className="carousel-item active">
-                    <img src="https://lelogama.go-jek.com/post_featured_image/promo-ramadhan-go-food-extension.jpg" className="d-block w-100" alt="" />
+                    <img src={Img} className="d-block w-100" alt="" />
                 </div>
                 <div className="carousel-item">
                     <img src="https://lelogama.go-jek.com/post_featured_image/promo-linkaja-gofood.jpg" className="d-block w-100" alt="" />

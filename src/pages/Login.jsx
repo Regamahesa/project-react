@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
 import "../style/Login.css"
 
 export default function Login() {
-    const [username, setUsername] = useState("");
+    const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
     const history = useHistory();
@@ -15,7 +15,7 @@ export default function Login() {
         e.preventDefault();
         axios.get("http://localhost:8000/users").then(({data}) => {
             const user = data.find(
-                (x) => x.username === username && x.password === password
+                (x) => x.email === email && x.password === password
             );
             if (user) {
                 Swal.fire({
@@ -30,7 +30,7 @@ export default function Login() {
             }else{
                 Swal.fire({
                     icon: 'error',
-                    title: 'Username atau password tidak valid',
+                    title: 'email atau password tidak valid',
                     showConfirmButton: false,
                     timer: 1500
                   })
@@ -44,14 +44,14 @@ export default function Login() {
     <Form onSubmit={login} method="POST">
         <div className="mb-3">
             <Form.Label>
-                <strong>Username</strong>
+                <strong>Username or email addres</strong>
             </Form.Label>
             <InputGroup className="d-flex gap-3">
                 <Form.Control 
-                placeholder="Username"
+                placeholder="email"
                 type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)} />
+                value={email}
+                onChange={(e) => setEmail(e.target.value)} />
             </InputGroup>
         </div>
         <div className="mb-3">

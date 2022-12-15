@@ -53,7 +53,7 @@ import { useHistory, useParams } from 'react-router-dom'
               })
                 .then(() => {
                   // berfungsi ngepush secara otomatis 
-                  history.push("/");
+                  history.push("/administrator");
                 })
                 .catch((error) => {
                   alert("Terjadi kesalahan " + error)

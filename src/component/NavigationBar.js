@@ -48,7 +48,7 @@ export default function NavigationBar() {
         history.push("/login");
       };
   return (
-    <div>
+    <div className="nav">
         <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid  navbar">
     <a className="navbar-brand">GaFood <i class="fas fa-store-alt"></i></a>
@@ -58,10 +58,10 @@ export default function NavigationBar() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
+        {localStorage.getItem("id") !== null ?  <a className="nav-link active" aria-current="page" href="/administrator">Administrator</a>: <></>}
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/dashboard">Dashboard</a>
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/menu">Menu</a>
@@ -69,7 +69,7 @@ export default function NavigationBar() {
         {localStorage.getItem("id") !== null ? (
                 <>
                 <li className="nav-item">
-                <button className="nav-link" onClick={handleShow} style={{border: "none", backgroundColor:"aquamarine"}}>Tambah Makanan</button>
+                <button className="nav-link" onClick={handleShow} style={{border: "none", color: "black"}}>Tambah Makanan</button>
               </li>
               <li className="nav-item logout">
                 <a className="btn" onClick={logout}>

@@ -3,9 +3,10 @@
 }
 
 .login {
-  padding-left: 880px;
+  padding-left: 960px;
 }
 
-.navbar {
+.nav {
   color: white;
+  padding-left: 10px;
 }

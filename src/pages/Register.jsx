@@ -25,7 +25,7 @@ export default function Register() {
                 timer: 1500
               })
               setTimeout(() => {
-              window.location.reload();
+              window.location.reload("/login");
               }, 1000);
         } catch (error) {
             console.log(error)

@@ -69,7 +69,7 @@ export default function Footer() {
 
           <li>
             <a
-              href="https://twitter.com/i/flow/login"
+              href="https://twitter.com/rega_hesa"
               rel="noreferrer"
               target="_blank"
               class="text-gray-700 transition hover:opacity-75"
